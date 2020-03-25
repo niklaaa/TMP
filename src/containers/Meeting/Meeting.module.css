@@ -1,0 +1,37 @@
+.selectedChannel {
+  background: #e6f7ff;
+  color: #1890ff;
+}
+.meetingHeader {
+  background: #f5f7fa;
+  padding: 20px;
+}
+.participants {
+  background: #e6e9ed;
+  padding: 20px;
+}
+.Commands button {
+  width: 108px;
+}
+.Users {
+  display: inline-block;
+  width: 50%;
+  max-width: 250px;
+  padding: 3px;
+}
+.Users button:first-child {
+  width: calc(100% - 32px);
+}
+.VerticalCommands {
+  margin: 0 auto;
+}
+.VerticalCommands div {
+  padding: 15px;
+  text-align: center;
+}
+.VerticalCommands div:first-child {
+  padding-top: 0;
+}
+.VerticalCommands div button {
+  min-width: 100px;
+}

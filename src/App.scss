@@ -1,0 +1,88 @@
+body {
+  background: #E6E9ED;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  width: 120px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+#login-container {
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  padding: 20vh 0;
+}
+
+#login-form {
+  background: #fff;
+  width: 100%;
+  max-width: 240px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+}
+
+.chat {
+  height: 60vh;
+  max-height: 60vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.chat .chat__message .ant-comment-inner {
+  padding: 6px 0;
+}
+
+.themesTableRow:hover {
+  cursor:pointer;
+  background: lightcyan;
+}
+
+
+.showCheckbox{
+  display: none !important;
+}
+
+.ant-select-selection__rendered .showCheckbox{
+  display: inline-block !important;
+  margin:0 5px;
+}
+ 
